@@ -1,0 +1,42 @@
+{
+  "lang": "English",
+  "mainContent": {
+    "register": "DimensionalCoin, make trading easier. Register now"
+  },
+  "download": {
+    "title": "Trade Anywhere with <span>DimensionalCoin</span> ",
+    "subtitle1": "Spot Markets",
+    "subtitle1desc": "Gather more, better-quality cryptocurrencies.",
+    "subtitle2": "Futures Markets",
+    "subtitle2desc": "Superior spreads and depth, along with multiple investment options."
+  },
+  "choose": {
+    "title": "Why Choose DimensionalCoin?",
+    "card1Title": "Top trading experience",
+    "card1Desc": "Ultra-high performance matching, millisecond response",
+    "card2Title": "Strong account security",
+    "card2Desc": "Adhere to the strictest secure offline storage method and multiple encryption management. Take all necessary measures to ensure the security of your account.",
+    "card3Title": "Trusted platform",
+    "card3Desc": "A fairer and more open financial system with highly encrypted personal data.",
+    "card4Title": "Excellent customer service",
+    "card4Desc": "With the user as the center, we have established service sites in multiple countries and regions to provide multi-language support and 7*24 hours fast access to online services."
+  },
+  "contactUs": {
+    "title": "Join the <strong>DimensionalCoin</strong> community today",
+    "inputHolder": "Email/Phone number",
+    "button": "Download Now",
+    "question": "Questions? Contact our 24/7 Customer Support"
+  },
+  "footer": {
+    "about": {
+      "aboutUs": "About US",
+      "agreement": "User Agreement",
+      "privacy": "Privacy Police"
+    },
+    "service": {
+      "service": "Services",
+      "serviceAgreement": "Service Document",
+      "risk": "Risk Disclosure"
+    }
+  }
+}

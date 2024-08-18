@@ -1,0 +1,42 @@
+{
+  "lang": "简体中文",
+  "mainContent": {
+    "register": "DimensionalCoin，让交易更简单。立即注册交易"
+  },
+  "download": {
+    "title": "通过 <span>DimensionalCoin</span>随时随地进行交易",
+    "subtitle1": "现货市场",
+    "subtitle1desc": "聚集更多、更好的优质币种",
+    "subtitle2": "期货市场",
+    "subtitle2desc": "优越的价差和深度以及多种投资模式"
+  },
+  "choose": {
+    "title": "为什么选择DimensionalCoin?",
+    "card1Title": "顶级交易体验",
+    "card1Desc": "超高性能撮合，毫秒级响应。",
+    "card2Title": "强大的账户安全性",
+    "card2Desc": "采取离线储存方式、多重加密管理等最严格的安全措施，以确保您的账户安全。",
+    "card3Title": "可信任的平台",
+    "card3Desc": "更加公平和开放的金融体系，高度加密的个人数据。",
+    "card4Title": "优质的客户服务",
+    "card4Desc": "以用户为中心，在多个国家和地区建立服务站点，提供多语言支持，7*24小时快速接入在线服务。"
+  },
+  "contactUs": {
+    "title": "立即加入 <strong>DimensionalCoin</strong> 社区",
+    "inputHolder": "邮箱/手机号",
+    "button": "立即下载",
+    "question": "遇到问题？联系我们的 24/7 客户支持"
+  },
+  "footer": {
+    "about": {
+      "aboutUs": "关于我们",
+      "agreement": "用户协议",
+      "privacy": "隐私政策"
+    },
+    "service": {
+      "service": "服务",
+      "serviceAgreement": "服务条款",
+      "risk": "风险告知"
+    }
+  }
+}

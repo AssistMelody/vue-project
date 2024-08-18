@@ -1,21 +1,41 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+import { useGlobalProfileStore } from '@/stores/config'
+import { ref } from 'vue'
+
+const profile = useGlobalProfileStore()
+
+const langList = ref(['zh', 'en', 'jp'])
+const changeLang = (item: string) => {
+  profile.loadLocaleMessages(item)
+}
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+  <main>
+    <header>
+      <img alt="Vue logo" class="logo" src="/icon/logo.svg" width="125" height="125" />
+      <div class="container mx-auto">
+        <HelloWorld msg="You did it!" />
+        <button class="btn">Button</button>
+        <button class="btn btn-primary">{{ $t('message') }}</button>
+        <div class="dropdown dropdown-bottom dropdown-end">
+          <div tabindex="0" role="button" class="btn m-1">{{ profile.lang }}</div>
+          <ul
+            tabindex="0"
+            class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+          >
+            <li v-for="item in langList" :key="item" @click="changeLang(item)">
+              <a>{{ item }}</a>
+            </li>
+          </ul>
+        </div>
+        <h1>{{ $t('message') }}</h1>
+      </div>
+    </header>
+  </main>
 
   <RouterView />
 </template>
